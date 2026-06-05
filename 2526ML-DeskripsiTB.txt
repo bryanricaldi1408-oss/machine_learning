@@ -1,0 +1,192 @@
+MACHINE LEARNING
+
+SEMESTER GENAP 2025/ 2026
+
+Tugas Besar
+
+Proyek Analisis Dataset dan Penerapan Algoritma Machine Learning
+DESKRIPSI
+Tugas besar ini bertujuan memberikan pengalaman end-to-end dalam menyelesaikan
+permasalahan data menggunakan pendekatan Machine Learning. Mahasiswa bekerja dalam
+kelompok untuk mencari dataset secara mandiri, melakukan eksplorasi data, membangun model
+machine learning, melakukan evaluasi, tuning parameter, dan menarik insight yang bernilai dari
+hasil analisis.
+Mahasiswa diharapkan tidak hanya mampu menjalankan algoritma, tetapi juga memahami
+mengapa model tertentu dipilih, bagaimana meningkatkan performa model, dan apa makna hasil
+model terhadap masalah nyata.
+
+Ketentuan Kelompok
+●​ 1 kelompok terdiri dari maks. 3 orang
+●​ Setiap kelompok wajib memiliki kontribusi anggota yang seimbang
+●​ Tidak diperbolehkan menggunakan dataset yang sama persis dengan kelompok lain
+(kecuali topik berbeda dan disetujui dosen)
+
+Tema Dataset
+Dataset bebas, dapat berasal dari berbagai domain, misalnya:
+●​ Kesehatan
+●​ Pendidikan
+●​ Finansial
+●​ Penjualan / Bisnis
+●​ Sosial Media
+●​ Transportasi
+●​ Olahraga
+●​ Cuaca
+●​ Pertanian
+●​ Customer Behavior
+●​ Human Resources
+●​ E-commerce
+
+Sumber dataset dapat berasal dari:
+●​ Kaggle
+●​ UCI Machine Learning Repository
+●​ Data.go.id
+●​ World Bank Data
+●​ Google Dataset Search
+●​ Dataset publik lainnya
+
+Tujuan Proyek
+Setiap kelompok harus mampu menjawab pertanyaan berikut:
+1. Masalah apa yang ingin diselesaikan?
+2. Mengapa dataset tersebut menarik / penting?
+3. Insight apa yang bisa diperoleh?
+4. Algoritma machine learning apa yang cocok?
+5. Seberapa baik performa model?
+6. Bagaimana meningkatkan performa model melalui hyperparameter tuning?
+7. Kesimpulan apa yang dapat diambil?
+
+Tahapan Pengerjaan
+1. Pemilihan Dataset
+●​ Pilih dataset yang memiliki jumlah data memadai
+●​ Jelaskan sumber dataset
+●​ Jelaskan atribut/fitur yang tersedia
+●​ Tentukan tujuan analisis
+2. Data Understanding & Exploratory Data Analysis (EDA)
+●​ Lakukan analisis awal: ukuran dataset, jumlah fitur, tipe data, missing value, outlier,
+distribusi data, korelasi antar variabel, visualisasi.
+●​ Gunakan grafik seperti: histogram/ boxplot/ heatmap/ bar chart/ scatter plot
+3. Data Preprocessing
+Lakukan proses yang diperlukan, misalnya:
+●​ handling missing values
+●​ encoding categorical data
+●​ normalization / standardization
+●​ feature selection
+●​ balancing class ( jika data imbalance)
+●​ train-test split
+
+4. Penerapan Machine Learning
+Gunakan minimal 3 algoritma machine learning, misalnya:
+1.​ Classification: Logistic Regression/ Decision Tree/ Random Forest/ KNN/ Naive Bayes/
+SVM/ XGBoost
+2.​ Regression: Linear Regression/ Decision Tree Regressor/ Random Forest Regressor/ SVR/
+Gradient Boosting
+3.​ Clustering: K-Means/ DBSCAN/ Hierarchical Clustering
+(Pilih sesuai kasus dataset)
+5. Evaluasi Model
+Gunakan metrik yang sesuai:
+●​ Classification: Accuracy/ Precision/ Recall/ F1-score/ ROC-AUC/ Confusion Matrix
+●​ Regression: MAE/ MSE/ RMSE/ R² Score
+●​ Clustering: Silhouette Score/ Davies-Bouldin Index
+Bandingkan performa antar model.
+6. Hyperparameter Tuning
+Lakukan tuning pada minimal 1 model terbaik menggunakan: GridSearchCV/
+RandomizedSearchCV/ Bayesian Optimization (opsional). Contoh parameter:
+●​ KNN: k
+●​ Random Forest: n_estimators, max_depth
+●​ SVM: C, kernel, gamma
+●​ XGBoost: learning_rate, max_depth
+Bandingkan performa sebelum dan sesudah tuning.
+7. Insight dan Interpretasi
+Tuliskan insight yang diperoleh, contoh:
+●​ faktor paling berpengaruh terhadap churn pelanggan
+●​ prediktor utama harga rumah
+●​ pola pelanggan berisiko gagal bayar
+●​ segmentasi pelanggan
+●​ fitur paling penting dalam prediksi penyakit
+●​ produk paling favorit di pasaran
+8. Kesimpulan
+Berisi:
+●​ model terbaik
+●​ performa akhir
+●​ insight utama
+
+●​ kendala penelitian
+●​ saran pengembangan lanjutan
+
+Output yang Dikumpulkan
+1. Laporan (PDF): ​
+Format isi:
+1. Cover​
+​
+2. Anggota kelompok​
+​
+3. Pendahuluan​
+​
+4. Dataset​
+​
+5. Metodologi
+6. EDA
+7. Modeling
+8. Hyperparameter Tuning
+9. Insight
+10. Kesimpulan
+11. Referensi
+Minimal 10 halaman.
+2. Source Code: Notebook Python (.ipynb) atau .py
+3. Slide Presentasi: 8–12 slide
+4. Presentasi: ​
+Durasi:​
+​
+
+Presentasi: 10 menit​
+
+​
+
+Tanya jawab: 5 menit​
+
+Setiap anggota wajib presentasi.
+
+Kriteria Penilaian (100%)
+Komponen
+
+Bobot
+
+Pemilihan masalah & dataset
+
+10%
+
+EDA & preprocessing
+
+15%
+
+Implementasi model
+
+20%
+
+Evaluasi model
+
+15%
+
+Hyperparameter tuning
+
+15%
+
+Insight & interpretasi
+
+15%
+
+Presentasi & komunikasi
+
+10%
+
+Catatan Penting
+●​ Tidak melakukan plagiarisme
+●​ Wajib memahami seluruh kode yang dibuat
+●​ Boleh menggunakan library Python (Scikit-learn, Pandas, XGBoost, dll)
+
+Bonus Nilai
+Diberikan jika membuat:
+●​ Dashboard interaktif
+●​ Deployment model sederhana
+●​ Web app demo
+
+
